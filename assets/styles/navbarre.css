@@ -1,0 +1,294 @@
+/* nav barre  */
+
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 0px 0px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    align-items: center;
+    font-family: 'Russo One', sans-serif;
+    transition: 0.7s ease-out;
+    cursor: pointer;
+    border-top: 0.25rem solid #000000;
+    box-shadow:  0px 1px 20px rgb(17 17 17 / 30%);
+    
+}
+
+
+.logo-title {
+    font-size: 1.1em;
+    border: solid 4px;
+    border-radius: 4em;
+    padding: -20px -20px;
+    text-align: center;
+    clip-path: circle(50% at 50% 50%);
+}
+.login-user {
+    font-size: 2em;
+    margin-top:-2%;
+   
+}
+.login-user:hover {
+    color: #47474760;
+    
+}
+
+.logo-title span{
+    color: #000000;
+    font-size: 1.5em;
+    vertical-align: text-top;
+    margin-top: -3.5px;
+    margin-left: 1%;
+
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+
+   
+}
+
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: #000000;
+    text-decoration: none;
+    margin: 70px;
+    margin-left: 30px;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+header .navbar li a:hover{
+    color: #B22222;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color:  rgba(168,161,161,0.67);
+    position: absolute;
+    width: 40%;
+    z-index: 1000;
+    height: auto;
+    margin: 10px 0px;
+    border: 2px solid;   
+}
+header > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px 0px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 18px;
+}
+
+/* scroll de la souris  */
+
+header.sticky{
+    padding: 9px 9px;
+    box-shadow: 0px 5px 20px rgba(0,0,0, 0.05);
+    background: rgba(199,189,189,0.32);
+    background: linear-gradient(313deg,rgba(199,189,189,0.32) 1%, #4a4a44 20%, rgba(87,87,87,0.39) 51%, rgba(253,253,253,0.59) 100%, #949494 20%);
+    background: -webkit-linear-gradient(313deg,rgba(199,189,189,0.32) 1%, #4a4a44 20%, rgba(87,87,87,0.39) 51%, rgba(253,253,253,0.59) 100%, #949494 20%);
+    background: -moz-linear-gradient(313deg,rgba(199,189,189,0.32) 1%, #4a4a44 20%, rgba(87,87,87,0.39) 51%, rgba(253,253,253,0.59) 100%, #949494 20%);
+}
+
+header.sticky .logo-title{
+    color: rgb(255, 255, 255);
+}
+
+header.sticky .navbar li a {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+header.sticky li a:hover{
+    color: #a71818;
+}
+
+/* Format de la page telephone + tablette + deskop */
+@media (max-width:940px) {
+    header, 
+    header.sticky{
+        padding: 10px 20px;
+    }
+    
+    
+    header .navbar li{
+        margin-left: 0px;
+    }
+    
+    header .navbar li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    
+    header .navbar.active{
+        width: 100%;
+        height: calc(100% -68px);
+        position: fixed;
+        top: 20%;
+        left:0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        background: rgba(199,189,189,0.32);
+        background: linear-gradient(313deg,rgba(199,189,189,0.32) 1%, #4a4a44 20%, rgba(87,87,87,0.39) 51%, rgba(253,253,253,0.59) 100%, #949494 20%);
+        background: -webkit-linear-gradient(313deg,rgba(199,189,189,0.32) 1%, #4a4a44 20%, rgba(87,87,87,0.39) 51%, rgba(253,253,253,0.59) 100%, #949494 20%);
+        background: -moz-linear-gradient(313deg,rgba(199,189,189,0.32) 1%, #4a4a44 20%, rgba(87,87,87,0.39) 51%, rgba(253,253,253,0.59) 100%, #949494 20%);
+    }
+
+    .navbar li {
+        font-size: 1em;
+    }
+    .sous li {
+        font-size: 1em;
+    }
+    
+    header .logo {
+        margin-left: -50px;
+    }
+    
+    header .navbar.active {
+        margin-top: 5px;
+    }
+    
+    .menuToggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-size: 30px;
+        right: 10%;
+    
+    }
+    
+    .menuToggle.active
+    {
+        background-image: url(../img/close.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-origin: center;
+    }
+    
+    header.sticky .menuToggle{
+        filter: invert(1);
+    }
+
+}
+
+@media (max-width: 380px)
+{
+
+    header, 
+header.sticky{
+    padding: 10px 20px;
+}
+
+header .navbar li{
+    margin-left: 0px;
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.navbar{
+    display: none;
+}
+
+header .navbar.active{
+    width: 100%;
+    height: calc(100% -68px);
+    position: fixed;
+    top: 0%;
+    left:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #ffff;
+    align-items: center;
+    margin-left: -10px;
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+header .navbar.active .btn-reserve {
+    margin-top: 5px;
+}
+
+
+header .logo {
+    margin-left: 10px;
+}
+
+
+.navbar a {
+    font-size: 0.7em;
+}
+header > ul li:hover .sous{
+    font-size: 1em;
+}
+.menuToggle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-size: 30px;
+    margin-right: -90px;
+}
+
+.menuToggle.active
+{
+    background-image: url(../img/close.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-origin: center;
+}
+
+header.sticky .menuToggle{
+    filter: invert(1);
+}
+
+}
