@@ -8,10 +8,11 @@
     <link rel= "stylesheet" href ="./assets/styles/formulaireRL.css">
 	<link rel="stylesheet" href="assets/styles/navbarre.css">
     <link rel="stylesheet" href="assets/styles/footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
  
-
+<?php include("assets/includes/navbarre.php") ?>
 <a href="ta_page.html" class ="Buttonretc">Acceuil</a>
 
 
@@ -58,8 +59,10 @@
 
 </div>
 
+<?php include("assets/includes/footer.php") ?>
 
-
-
+<script src="assets/js/navbarre.js"></script>
+    <script src="./assets/js/typed.min.js" type="text/javascript"></script>
+    <script src="./assets/js/script.js" type="text/javascript"></script>
 </body>
 </html>
