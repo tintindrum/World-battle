@@ -37,7 +37,7 @@
 				<input type="phone" placeholder="Telephone" required="" id="telephone" />
 			</div>
 			<div>
-				<input type="submit" value="S'inscrire" href="inscription1" />
+				<input type="submit" value="S'inscrire" href="inscription1.php" />
 				
 			</div>
 		</form><!-- form -->
