@@ -16,7 +16,7 @@
       <h2>Brawlhala</h2>
     </div>
     <div class="classreturn">
-      <a href="formulaireBL.php" class="Buttonretc">Retour</a>
+      <a href="formulaireBH.php" class="Buttonretc">Retour</a>
     </div>
     <div class="imgcjeux3"></div>
     <div class="tournoi3">
