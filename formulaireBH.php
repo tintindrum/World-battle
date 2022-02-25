@@ -37,12 +37,12 @@
 				<input type="phone" placeholder="Telephone" required="" id="telephone" />
 			</div>
 			<div>
-				<input type="submit" value="S'inscrire" href="#" />
+				<input type="submit" value="S'inscrire" href="inscription3" />
 				
 			</div>
 		</form><!-- form -->
 		<div class="button">
-			<a href="classementBL">Accès au classement</a>
+			<a href="classementBF.php">Accès au classement</a>
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->

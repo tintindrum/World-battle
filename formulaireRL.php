@@ -26,7 +26,7 @@
 <div class="container">
 	<section id="content">
 		<form action="">
-			<h1>Login Form</h1>
+			<h1>Inscription</h1>
 			<div>
 				<input type="text" placeholder="Username" required="" id="username" />
 			</div>
@@ -37,13 +37,12 @@
 				<input type="phone" placeholder="Telephone" required="" id="telephone" />
 			</div>
 			<div>
-				<input type="submit" value="Log in" />
-				<a href="#"></a>
-				<a href="#"></a>
+				<input type="submit" value="S'inscrire" href="inscription1" />
+				
 			</div>
 		</form><!-- form -->
 		<div class="button">
-			<a href="classementRL.php">Accès au classement</a>
+			<a href="classementBF.php">Accès au classement</a>
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->
