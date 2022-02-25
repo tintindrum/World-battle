@@ -15,7 +15,7 @@ header{
     font-family: 'Russo One', sans-serif;
     transition: 0.7s ease-out;
     cursor: pointer;
-    border-top: 0.25rem solid #B22222;
+    border-top: 0.25rem solid #000000;
     box-shadow:  0px 1px 20px rgb(17 17 17 / 30%);
     
 }

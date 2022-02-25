@@ -12,6 +12,8 @@
 </head>
 <body>
 
+
+
 <?php include("assets/includes/navbarre.php") ?>
 
 <!-- haut de page -->
@@ -27,6 +29,8 @@
             </ul>
         </div>
     </section>
+
+    <audio src="assets/audio/fondaudio.mp3" controls autoplay loop></audio>
 
 <!-- Les Jeux  -->
 
