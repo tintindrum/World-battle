@@ -1,0 +1,658 @@
+@import url("https://fonts.googleapis.com/css2?family=Rambla&family=Russo+One&display=swap%27");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: rgba(204, 195, 195, 0.74);
+  background: linear-gradient(
+    330deg,
+    rgba(204, 195, 195, 0.74) 0%,
+    #f7f7f7 40%,
+    #fffcfc 50%,
+    #ffffff 40%,
+    rgba(204, 195, 195, 0.8) 80%
+  );
+  background: -webkit-linear-gradient(
+    330deg,
+    rgba(204, 195, 195, 0.74) 0%,
+    #f7f7f7 40%,
+    #fffcfc 50%,
+    #ffffff 40%,
+    rgba(204, 195, 195, 0.8) 80%
+  );
+  background: -moz-linear-gradient(
+    330deg,
+    rgba(204, 195, 195, 0.74) 0%,
+    #f7f7f7 40%,
+    #fffcfc 50%,
+    #ffffff 40%,
+    rgba(204, 195, 195, 0.8) 80%
+  );
+}
+.titrec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Russo One";
+  height: 50px;
+}
+.classreturn {
+  display: flex;
+  position: sticky;
+  z-index: 30;
+  top: 0px;
+  width: 100%;
+  margin: 0 0 0 50px;
+  width: 400px;
+}
+.Buttonretc {
+  box-shadow: 0px 10px 14px -7px #69180d;
+  background: linear-gradient(to bottom, #c40505 5%, #8b1111 100%);
+  background-color: #ec0c0c;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b22222;
+  z-index: 2;
+}
+.Buttonretc:hover {
+  background: linear-gradient(to bottom, #8b1111 5%, #c21616 100%);
+  background-color: #b22222;
+  z-index: 2;
+}
+.Buttonretc:active {
+  position: relative;
+  top: 1px;
+  z-index: 2;
+}
+.imgcjeux1 {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 10px 30px 10px 30px;
+  background-image: url(../img/bannierebrofalls.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: brightness(95%) grayscale(30%) saturate(90%) sepia(5%);
+  filter: brightness(95%) grayscale(30%) saturate(90%) sepia(5%);
+  z-index: 1;
+}
+.imgcjeux2 {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 10px 30px 10px 30px;
+  background-image: url(../img/RocketLeague.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: brightness(95%) grayscale(30%) saturate(90%) sepia(5%);
+  filter: brightness(95%) grayscale(30%) saturate(90%) sepia(5%);
+  z-index: 1;
+}
+.imgcjeux3 {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 10px 30px 10px 30px;
+  background-image: url(../img/brawlhalla.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: brightness(95%) grayscale(30%) saturate(90%) sepia(5%);
+  filter: brightness(95%) grayscale(30%) saturate(90%) sepia(5%);
+  z-index: 1;
+}
+.imgcjeux4 {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 10px 30px 10px 30px;
+  background-image: url(../img/CSGO.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: brightness(95%) grayscale(30%) saturate(90%) sepia(5%);
+  filter: brightness(95%) grayscale(30%) saturate(90%) sepia(5%);
+  z-index: 1;
+}
+.tournoi1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+}
+.tournoi2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+}
+.tournoi3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+}
+.tournoi4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+}
+.sous-titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  margin: 50px 0 50px 0;
+  background-color: #69180d;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  color: #fffcfc;
+}
+.podium {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-top: 90px;
+  justify-content: center;
+}
+#pod {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  max-width: 900px;
+  max-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.first-place1 {
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.first-place2 {
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.first-place3 {
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.first-place4 {
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.first-place-name1 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+}
+.first-place-name2 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+}
+.first-place-name3 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+}
+.first-place-name4 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+}
+.first-place1:hover {
+  transform: translate(0px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.first-place2:hover {
+  transform: translate(0px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.first-place3:hover {
+  transform: translate(0px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.first-place4:hover {
+  transform: translate(0px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.first1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/trophée-or.png);
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
+.second1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/trophée-argent.png);
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
+.third1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/trophée-bronze.png);
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
+.second-place1 {
+  display: flex;
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.second-place2 {
+  display: flex;
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.second-place3 {
+  display: flex;
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.second-place4 {
+  display: flex;
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.second-place-name1 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+}
+.second-place-name2 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+}
+.second-place-name3 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+}
+.second-place-name4 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+}
+.second-place1:hover {
+  transform: translate(-20px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.second-place2:hover {
+  transform: translate(-20px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.second-place3:hover {
+  transform: translate(-20px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.second-place4:hover {
+  transform: translate(-20px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.third-place1 {
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.third-place2 {
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.third-place3 {
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.third-place4 {
+  position: relative;
+  background-image: url(../img/profil.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  z-index: 10;
+}
+.third-place-name1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+  z-index: 10;
+}
+.third-place-name2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+  z-index: 10;
+}
+.third-place-name3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+  z-index: 10;
+}
+.third-place-name4 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  border-radius: 10%;
+  text-shadow: 5px 6px 4px rgba(0, 0, 0, 1);
+  z-index: 10;
+}
+.third-place1:hover {
+  transform: translate(20px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.third-place2:hover {
+  transform: translate(20px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.third-place3:hover {
+  transform: translate(20px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.third-place4:hover {
+  transform: translate(20px, -20px);
+  transition: ease-in-out 0.1s;
+}
+.classement-tier1 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.classement-tier2 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.classement-tier3 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.classement-tier4 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.place1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Rambla";
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+}
+.place2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Rambla";
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+}
+.place3 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Rambla";
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+}
+.place4 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Rambla";
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+}
+@media (max-width: 950px) {
+  .imgcjeux1 {
+    height: 200px;
+  }
+  .imgcjeux2 {
+    height: 200px;
+  }
+  .imgcjeux3 {
+    height: 200px;
+  }
+  .imgcjeux4 {
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .podium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tournoi1 {
+    height: 2400px;
+  }
+  .tournoi2 {
+    height: 2400px;
+  }
+  .tournoi3 {
+    height: 2400px;
+  }
+  .tournoi4 {
+    height: 2400px;
+  }
+}
