@@ -11,7 +11,7 @@
 <body>
  
 <?php include("assets/includes/navbarre.php") ?>
-<a href="#" class ="Buttonretc">Acceuil</a>
+<a href="accueil.php" class ="Buttonretc">Acceuil</a>
 
 
 
@@ -40,7 +40,7 @@
 			</div>
 		</form><!-- form -->
 		<div class="button">
-			<a href="#">Accès au classement</a>
+			<a href="classementBF.php">Accès au classement</a>
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->

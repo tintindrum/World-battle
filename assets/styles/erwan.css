@@ -34,9 +34,9 @@ html {
 .titrec {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   font-family: "Russo One";
-  height: 50px;
+  height: 150px;
 }
 .classreturn {
   display: flex;

@@ -43,7 +43,7 @@
         <div class="jeuxvideo">
             <div class="cadre">
                 <div class="img-container">
-                    <a href="#" target="_blank">
+                    <a href="formulaireRL.php" target="_blank">
                         <img src="assets/images/rocketleague1.jfif">
                     </a>
                 </div>
@@ -55,12 +55,12 @@
                     height="55px"
                     width="50px" /> Rocket League </h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quod suscipit reiciendis eaque! Quam totam ad nulla reprehenderit hic error unde voluptatum rerum, nisi, eligendi incidunt recusandae. At, porro adipisci?</p>
-                <a href="#" target="_blank"><img
+                <a href="formulaireRL.php" target="_blank"><img
                     src="assets/images/fight-svgrepo-com.svg"
                     alt="un triangle aux trois côtés égaux"
                     height="87px"
                     width="100px" /><h5> Les Tournois</h5></a>
-                <a href="#" target="_blank"><img
+                <a href="classementRL.php" target="_blank"><img
                         src="assets/images/podium-svgrepo-com.svg"
                         alt="un triangle aux trois côtés égaux"
                         height="87px"
@@ -71,7 +71,7 @@
         <div class="jeuxvideo">
             <div class="cadre">
                 <div class="img-container">
-                    <a href="#" target="_blank">
+                    <a href="formulaireBH.php" target="_blank">
                         <img src="assets/images/brawlhala.png" alt="jeux4">
                     </a>
                 </div>
@@ -83,12 +83,12 @@
                     height="55px"
                     width="50px" /> Brawlhalla </h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quod suscipit reiciendis eaque! Quam totam ad nulla reprehenderit hic error unde voluptatum rerum, nisi, eligendi incidunt recusandae. At, porro adipisci?</p>
-                <a href="#" target="_blank"><img
+                <a href="formulaireBH.php" target="_blank"><img
                     src="assets/images/fight-svgrepo-com.svg"
                     alt="un triangle aux trois côtés égaux"
                     height="95px"
                     width="120px" /><h5> Les Tournois</h5></a>
-                <a href="#" target="_blank"><img
+                <a href="classementBL.php" target="_blank"><img
                         src="assets/images/podium-svgrepo-com.svg"
                         alt="un triangle aux trois côtés égaux"
                         height="95px"
@@ -99,7 +99,7 @@
         <div class="jeuxvideo">
             <div class="cadre">
                 <div class="img-container">
-                    <a href="#" target="_blank">
+                    <a href="formulaireBF.php" target="_blank">
                         <img src="assets/images/brofalls1.jpg" alt="jeux4">
                     </a>
                 </div>
@@ -111,12 +111,12 @@
                     height="55px"
                     width="50px" /> Bro Falls </h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quod suscipit reiciendis eaque! Quam totam ad nulla reprehenderit hic error unde voluptatum rerum, nisi, eligendi incidunt recusandae. At, porro adipisci?</p>
-                <a href="#" target="_blank"><img
+                <a href="formulaireBF.php" target="_blank"><img
                     src="assets/images/fight-svgrepo-com.svg"
                     alt="un triangle aux trois côtés égaux"
                     height="95px"
                     width="120px" /><h5> Les Tournois</h5></a>
-                <a href="#" target="_blank"><img
+                <a href="classementBF.php" target="_blank"><img
                         src="assets/images/podium-svgrepo-com.svg"
                         alt="un triangle aux trois côtés égaux"
                         height="95px"
@@ -127,7 +127,7 @@
         <div class="jeuxvideo">
             <div class="cadre">
                 <div class="img-container">
-                    <a href="#" target="_blank">
+                    <a href="formulaireCS.php" target="_blank">
                         <img src="assets/images/cs-go1.jpg" alt="jeux4">
                     </a>
                 </div>
@@ -141,13 +141,13 @@
                     width="50px" /> Counter strike Global Offensive </h4>
                 
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quod suscipit reiciendis eaque! Quam totam ad nulla reprehenderit hic error unde voluptatum rerum, nisi, eligendi incidunt recusandae. At, porro adipisci?</p>
-                <a href="#" target="_blank"><img
+                <a href="formulaireCS.php" target="_blank"><img
                     src="assets/images/fight-svgrepo-com.svg"
                     alt="un triangle aux trois côtés égaux"
                     height="95px"
                     width="120px" /><h5> Les Tournois</h5>
                 </a>
-                <a href="#" target="_blank"><img
+                <a href="classementCS.php" target="_blank"><img
                         src="assets/images/podium-svgrepo-com.svg"
                         alt="un triangle aux trois côtés égaux"
                         height="95px"

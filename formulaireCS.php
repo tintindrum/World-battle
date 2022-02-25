@@ -13,7 +13,7 @@
 <body>
  
 <?php include("assets/includes/navbarre.php") ?>
-<a href="ta_page.html" class ="Buttonretc">Acceuil</a>
+<a href="accueil.php" class ="Buttonretc">Acceuil</a>
 
 
 
@@ -43,7 +43,7 @@
 			</div>
 		</form><!-- form -->
 		<div class="button">
-			<a href="#">Accès au classement</a>
+			<a href="classementCS.php">Accès au classement</a>
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->
