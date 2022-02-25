@@ -5,8 +5,12 @@
  footer {
     text-align: center;
     padding: 160px 50px 5 50px;
-    height: 200px;
+    height: 18%;
     font-family: 'Rambla', sans-serif;
+    background: rgba(204,195,195,0.74);
+    background: linear-gradient(330deg,rgba(204,195,195,0.74) 0%, #f7f7f7 40%, #fffcfc 50%, #ffffff 40%, rgba(204,195,195,0.8) 80%);
+    background: -webkit-linear-gradient(330deg,rgba(204,195,195,0.74) 0%, #f7f7f7 40%, #fffcfc 50%, #ffffff 40%, rgba(204,195,195,0.8) 80%);
+    background: -moz-linear-gradient(330deg,rgba(204,195,195,0.74) 0%, #f7f7f7 40%, #fffcfc 50%, #ffffff 40%, rgba(204,195,195,0.8) 80%);
   }
   
   footer h3 {
@@ -20,13 +24,13 @@
     display: flex;
     justify-content: space-between;
     max-width: 60%;
-    margin-top: -4%;
+    margin-top: 0;
   }
   .network {
     font-size: 4em;
     border: 1px solid #353535;
     padding: 30px 45px;
-    color: #fcf8f5;
+    color: #414141;
     z-index: -1 !important;
     border-radius: 50%;
   
@@ -44,6 +48,7 @@
     padding-top: 15px;
     animation: arrow linear 1.5s;
     animation-iteration-count: infinite;
+    margin-bottom: 0;
   
   }
   
@@ -74,5 +79,21 @@
   footer p {
     font-size: 1.2em;
     letter-spacing: 0.7em;
+    margin-bottom: 0;
+  }
+
+  hr.light {
+    border-top: 4px solid #bbb;
   }
    
+
+@media (max-widht:320px) {
+  .network {
+    font-size: 0.8em;
+    margin-left: -5%;
+    margin: 0;
+  }
+  .footer p {
+    font-size: 1.2em;
+  }
+}

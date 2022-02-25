@@ -1,5 +1,4 @@
 <header>
-        <img src="assets/images/Battle-Amped-Logo.png" class="logo"></img>
         <div class="logo-title"><h4>World<span> Battle</span><h4></div>
         <div class="menuToggle" onclick="toggleMenu();"></div> 
             <ul class="navbar">
@@ -20,6 +19,6 @@
                     </ul>
                 </li>
                 <li><a href="#temoignage" onclick="toggleMenu();">Forum</a></li>
-                <li class="login-user"><i class="fa-solid fa-user"><a href="" onclick="toggleMenu();"></a></i></li>
+                <li class="login-user"><i class="fa fa-user"><a href="" onclick="toggleMenu();"></a></i></li>
             </ul>
     </header>

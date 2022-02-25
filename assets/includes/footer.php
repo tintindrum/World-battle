@@ -1,4 +1,5 @@
 <footer>
+        <hr class="light">
         <h3>Contact</h3>
         <div class="footer-icons">
             
