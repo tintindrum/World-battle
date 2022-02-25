@@ -11,13 +11,13 @@
 
             <div>
                 <a href="http://facebook.fr" class="network">
-                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-facebook"></i>
                 </a>
             </div>
 
             <div>
                 <a href="http://instagram.fr" class="network">
-                    <i class="fa fa-github"></i>
+                    <i class="fa fa-instagram"></i>
                 </a>
             </div>
         </div>
